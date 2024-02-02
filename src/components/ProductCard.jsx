@@ -55,7 +55,7 @@ const ProductCard = ({ data }) => {
 			</section>
 			{amountInCart <= 0 ? (
 				<Button
-					className="text-nowrap !rounded-full !text-sm !font-light !align-baseline flex flex-row justify-center items-center gap-2 "
+					className="text-nowrap !rounded-full !text-sm !font-light !align-baseline flex flex-row justify-center items-center gap-2 mt-3"
 					variant="primary"
 					size="md"
 					active
@@ -69,7 +69,7 @@ const ProductCard = ({ data }) => {
 			) : (
 				<div className="grid grid-cols-5 items-center mt-3">
 					<Button
-						className="col-span-1 border-[1px] text-nowrap !rounded-l-full !text-sm !font-light !align-baseline flex flex-row justify-center items-center gap-2 "
+						className="col-span-1 border-[1px] text-nowrap !rounded-l-full !text-sm !font-light !align-baseline flex flex-row justify-center items-center gap-2 mt-3"
 						variant="primary"
 						size="md"
 						active

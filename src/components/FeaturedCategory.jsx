@@ -51,7 +51,7 @@ const FeaturedCategory = ({ categoryIndex }) => {
 		);
 	} else {
 		return (
-			<div className="w-full rounded-xl bg-white py-2 px-2 h-fit">
+			<div className="w-full rounded-xl bg-white py-2 px-2">
 				<CategoryHeader category={data[categoryIndex]?.nombre} />
 				<Swiper
 					spaceBetween={20}
